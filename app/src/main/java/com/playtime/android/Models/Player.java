@@ -3,7 +3,12 @@ package com.playtime.android.Models;
 public class Player {
     private String name;
     private String number;
-    private int playCount;
+    int playCount;
+
+    public Player(String name, String number){
+        this.name = name;
+        this.number = number;
+    }
 
     public int getPlayCount() {
         return playCount;
